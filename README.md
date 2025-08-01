@@ -1,5 +1,4 @@
-﻿````markdown
-# Elsa Onboarding Playground
+﻿# Elsa Onboarding Playground
 
 This repository demonstrates how to build an employee‑onboarding workflow using [Elsa Workflows 3](https://elsaworkflows.io) and .NET Aspire.  
 It is based on the official [External Application Interaction](https://docs.elsaworkflows.io/guides/external-application-interaction) guide from Elsa.
