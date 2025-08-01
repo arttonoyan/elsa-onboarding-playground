@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Elsa.Onboarding.ServiceDefaults\Elsa.Onboarding.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Modules\Elsa.Onboarding.CustomActivities\Elsa.Onboarding.CustomActivities.csproj" />
   </ItemGroup>
 
 </Project>

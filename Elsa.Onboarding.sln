@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elsa.Onboarding.ServiceDefa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F75C69E8-1746-4719-84B7-8FF741632A6C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{547160E0-193D-4A40-AEF6-A290E1C50A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elsa.Onboarding.CustomActivities", "src\Modules\Elsa.Onboarding.CustomActivities\Elsa.Onboarding.CustomActivities.csproj", "{C66F740B-B258-4F33-B022-68C1A0FA7F32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{85CBCF36-72A6-AE8B-6866-9BE0CE76F821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85CBCF36-72A6-AE8B-6866-9BE0CE76F821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85CBCF36-72A6-AE8B-6866-9BE0CE76F821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66F740B-B258-4F33-B022-68C1A0FA7F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66F740B-B258-4F33-B022-68C1A0FA7F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66F740B-B258-4F33-B022-68C1A0FA7F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66F740B-B258-4F33-B022-68C1A0FA7F32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,8 @@ Global
 		{237D84E1-4617-43E2-B469-53E147A36F3C} = {F75C69E8-1746-4719-84B7-8FF741632A6C}
 		{85CBCF36-72A6-AE8B-6866-9BE0CE76F821} = {F75C69E8-1746-4719-84B7-8FF741632A6C}
 		{F75C69E8-1746-4719-84B7-8FF741632A6C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{547160E0-193D-4A40-AEF6-A290E1C50A69} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C66F740B-B258-4F33-B022-68C1A0FA7F32} = {547160E0-193D-4A40-AEF6-A290E1C50A69}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B13B5340-12A8-4844-8B00-57BD79BEC39A}
