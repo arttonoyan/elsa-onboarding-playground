@@ -14,4 +14,8 @@
     <PackageReference Include="Elsa.Workflows.Api" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Elsa.Onboarding.ServiceDefaults\Elsa.Onboarding.ServiceDefaults.csproj" />
+  </ItemGroup>
+
 </Project>

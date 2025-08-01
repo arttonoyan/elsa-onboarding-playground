@@ -5,6 +5,8 @@ using Elsa.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 builder.Services.AddElsa(elsa =>
 {
     // Configure Management layer to use EF Core.
@@ -80,13 +82,10 @@ builder.Services.AddCors(cors => cors
         .AllowAnyMethod()
         .WithExposedHeaders("x-elsa-workflow-instance-id"))); // Required for Elsa Studio in order to support running workflows from the designer. Alternatively, you can use the `*` wildcard to expose all headers.
 
-// Add Health Checks.
-builder.Services.AddHealthChecks();
-
 // Build the web application.
 var app = builder.Build();
 
-app.MapHealthChecks("/health");
+app.MapDefaultEndpoints();
 
 // Configure web application's middleware pipeline.
 app.UseCors();
