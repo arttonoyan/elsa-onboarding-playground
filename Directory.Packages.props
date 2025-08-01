@@ -84,18 +84,18 @@
     <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="$(Microsoft)" />
     <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="$(Microsoft)" PrivateAssets="all" />
     <!--Elsa Agent-->
-    <PackageVersion Include="Elsa.Agents.Activities" Version="$(ElsaAgent)"/>
-    <PackageVersion Include="Elsa.Agents.Api" Version="$(ElsaAgent)"/>
-    <PackageVersion Include="Elsa.Agents.Core" Version="$(ElsaAgent)"/>
-    <PackageVersion Include="Elsa.Agents.Models" Version="$(ElsaAgent)"/>
-    <PackageVersion Include="Elsa.Agents.Persistence" Version="$(ElsaAgent)"/>
-    <PackageVersion Include="Elsa.Agents.Persistence.EFCore" Version="$(ElsaAgent)"/>
-    <PackageVersion Include="Elsa.Agents.Persistence.EFCore.PostgreSql" Version="$(ElsaAgent)"/>
+    <PackageVersion Include="Elsa.Agents.Activities" Version="$(ElsaAgent)" />
+    <PackageVersion Include="Elsa.Agents.Api" Version="$(ElsaAgent)" />
+    <PackageVersion Include="Elsa.Agents.Core" Version="$(ElsaAgent)" />
+    <PackageVersion Include="Elsa.Agents.Models" Version="$(ElsaAgent)" />
+    <PackageVersion Include="Elsa.Agents.Persistence" Version="$(ElsaAgent)" />
+    <PackageVersion Include="Elsa.Agents.Persistence.EFCore" Version="$(ElsaAgent)" />
+    <PackageVersion Include="Elsa.Agents.Persistence.EFCore.PostgreSql" Version="$(ElsaAgent)" />
     <!--Elsa Studio-->
-    <PackageVersion Include="Elsa.Studio" Version="$(ElsaStudio)"/>
-    <PackageVersion Include="Elsa.Studio.Core.BlazorWasm" Version="$(ElsaStudio)"/>
-    <PackageVersion Include="Elsa.Studio.Login.BlazorWasm" Version="$(ElsaStudio)"/>
-    <PackageVersion Include="Elsa.Studio.Agents" Version="$(ElsaStudio)"/>
+    <PackageVersion Include="Elsa.Studio" Version="$(ElsaStudio)" />
+    <PackageVersion Include="Elsa.Studio.Core.BlazorWasm" Version="$(ElsaStudio)" />
+    <PackageVersion Include="Elsa.Studio.Login.BlazorWasm" Version="$(ElsaStudio)" />
+    <PackageVersion Include="Elsa.Studio.Agents" Version="$(ElsaStudio)" />
     <!--Testing-->
     <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="$(Microsoft)" />
     <PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="$(Microsoft)" />
