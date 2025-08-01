@@ -15,8 +15,8 @@
     <Elsa>3.4.2</Elsa>
     <ElsaStudio>3.4.0</ElsaStudio>
     <ElsaAgent>3.4.0</ElsaAgent>
-    <Aspire>9.3.0</Aspire>
-    <Microsoft>9.0.6</Microsoft>
+    <Aspire>9.4.0</Aspire>
+    <Microsoft>9.0.7</Microsoft>
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="Audit.EntityFramework.Core" Version="30.0.1" />
