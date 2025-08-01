@@ -1,0 +1,104 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <Company>VistaLos</Company>
+    <RepositoryUrl>https://github.com/VistaLOS/los-app</RepositoryUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Elsa>3.4.2</Elsa>
+    <ElsaStudio>3.4.0</ElsaStudio>
+    <ElsaAgent>3.4.0</ElsaAgent>
+    <Aspire>9.3.0</Aspire>
+    <Microsoft>9.0.6</Microsoft>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Audit.EntityFramework.Core" Version="30.0.1" />
+    <PackageVersion Include="AutoMapper" Version="14.0.0" />
+    <PackageVersion Include="Bogus" Version="35.6.3" />
+    <PackageVersion Include="EFCore.NamingConventions" Version="9.0.0" />
+    <PackageVersion Include="FluentValidation" Version="12.0.0" />
+    <PackageVersion Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+    <PackageVersion Include="JsonLogic" Version="5.4.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.Extensions.Http" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="$(Microsoft)" />
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    <PackageVersion Include="System.Text.Json" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.Extensions.Options" Version="$(Microsoft)" />
+    <PackageVersion Include="OpenTelemetry.Api" Version="1.12.0" />
+    <PackageVersion Include="Scalar.AspNetCore" Version="2.4.11" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="8.1.4" />
+    <PackageVersion Include="SendGrid" Version="9.29.3" />
+    <PackageVersion Include="SendGrid.Extensions.DependencyInjection" Version="1.0.1" />
+    <PackageVersion Include="Swashbuckle.AspNetCore.ReDoc" Version="8.1.0" />
+    <PackageVersion Include="Twilio" Version="7.11.1" />
+    <PackageVersion Include="Yarp.ReverseProxy" Version="2.3.0" />
+    <!--Aspire-->
+    <PackageVersion Include="Aspire.Hosting" Version="$(Aspire)" />
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="$(Aspire)" />
+    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="$(Aspire)" />
+    <PackageVersion Include="Aspire.Npgsql" Version="$(Aspire)" />
+    <PackageVersion Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="$(Aspire)" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.5.0" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="9.3.0" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.12.0" />
+    <!--Elsa-->
+    <PackageVersion Include="Elsa" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.Api.Client" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.EntityFrameworkCore" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.EntityFrameworkCore.Sqlite" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.Http" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.Identity" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.Webhooks" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.Workflows.Api" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.Email" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.CSharp" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.JavaScript" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.Scheduling" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.Expressions" Version="$(Elsa)" />
+    <PackageVersion Include="Elsa.EntityFrameworkCore.PostgreSql" Version="$(Elsa)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="$(Microsoft)" PrivateAssets="all" />
+    <!--Elsa Agent-->
+    <PackageVersion Include="Elsa.Agents.Activities" Version="$(ElsaAgent)"/>
+    <PackageVersion Include="Elsa.Agents.Api" Version="$(ElsaAgent)"/>
+    <PackageVersion Include="Elsa.Agents.Core" Version="$(ElsaAgent)"/>
+    <PackageVersion Include="Elsa.Agents.Models" Version="$(ElsaAgent)"/>
+    <PackageVersion Include="Elsa.Agents.Persistence" Version="$(ElsaAgent)"/>
+    <PackageVersion Include="Elsa.Agents.Persistence.EFCore" Version="$(ElsaAgent)"/>
+    <PackageVersion Include="Elsa.Agents.Persistence.EFCore.PostgreSql" Version="$(ElsaAgent)"/>
+    <!--Elsa Studio-->
+    <PackageVersion Include="Elsa.Studio" Version="$(ElsaStudio)"/>
+    <PackageVersion Include="Elsa.Studio.Core.BlazorWasm" Version="$(ElsaStudio)"/>
+    <PackageVersion Include="Elsa.Studio.Login.BlazorWasm" Version="$(ElsaStudio)"/>
+    <PackageVersion Include="Elsa.Studio.Agents" Version="$(ElsaStudio)"/>
+    <!--Testing-->
+    <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="$(Microsoft)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="$(Microsoft)" />
+  </ItemGroup>
+</Project>

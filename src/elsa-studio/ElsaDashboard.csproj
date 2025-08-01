@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+	<ItemGroup>
+		<PackageReference Include="Elsa.Api.Client" />
+        <PackageReference Include="Elsa.Studio" />
+        <PackageReference Include="Elsa.Studio.Core.BlazorWasm" />
+        <PackageReference Include="Elsa.Studio.Login.BlazorWasm" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" />
+	</ItemGroup>
+</Project>
