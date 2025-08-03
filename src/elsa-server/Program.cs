@@ -64,6 +64,8 @@ builder.Services.AddElsa(elsa =>
     // Register custom activities from the application, if any.
     elsa.AddActivitiesFrom<Program>();
 
+    elsa.AddSwagger();
+
     // Register custom workflows from the application, if any.
     elsa.AddWorkflowsFrom<Program>();
     
@@ -89,6 +91,7 @@ builder.Services.AddCors(cors => cors
 var app = builder.Build();
 
 app.MapDefaultEndpoints();
+app.UseSwaggerUI();
 
 // Configure web application's middleware pipeline.
 app.UseCors();
